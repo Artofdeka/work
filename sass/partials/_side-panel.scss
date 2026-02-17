@@ -1,0 +1,62 @@
+/* White side panel */
+
+.side-panel.white{
+    color: rgba(0,0,0, .65) !important;
+    background: #fafafa;
+    border-right: 1px solid rgba(0,0,0, .07);
+}
+.side-panel.white .sp-close-button{
+    border: 1px solid rgba(0,0,0, .5);
+}
+
+.side-panel.white .sp-close-button:before{
+    background: #000;
+}
+.side-panel.white .sp-close-button:after{
+    background: #000;
+}
+.side-panel.white .sp-menu-links a{
+    color: #777;
+    -webkit-tap-highlight-color: rgba(0,0,0, .05); 
+}
+.side-panel.white .sp-menu-links li{
+    border-top: 1px solid rgba(0,0,0, .04);
+}
+.side-panel.white .sp-menu-links li:last-child{
+    border-bottom: 1px solid rgba(0,0,0, .04);
+}
+
+.no-touch .side-panel.white .sp-menu-links a:hover,
+.side-panel.white .sp-menu-links a:active,
+.side-panel.white .sp-menu-links li.js-opened > a{
+    color: #111;
+    text-decoration: none;
+}
+.no-touch .side-panel.white .sp-menu-links a:hover{
+    background-color: rgba(0,0,0, .03);
+}
+
+.side-panel.white .sp-menu-links li > a:active,
+.side-panel.white .sp-menu-links li a.active{
+    color: #111;
+}
+.no-touch .side-panel.white .sp-menu-links li.js-opened > a:hover,
+.side-panel.white .sp-menu-links li.js-opened > a:active{
+    color: #111;
+}
+
+.side-panel.white .js-opened > .sp-has-sub > .fa{
+    color: #333;
+}
+.side-panel.white .sp-sub > li{
+    border: none!important;
+}
+
+.side-panel.white .sp-social-links > a{
+    border: 1px solid rgba(0,0,0, .15);
+    color: rgba(0,0,0, .4);
+}
+.side-panel.white .sp-social-links > a:hover{
+    border-color: rgba(0,0,0, .3);
+    color: rgba(0,0,0, .75);
+}

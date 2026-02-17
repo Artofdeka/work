@@ -1,0 +1,16 @@
+// Landing page mixins
+
+@mixin transition-all {              
+    -webkit-transition: all 0.30s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
+    -moz-transition: all 0.30s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -o-transition: all 0.30s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.30s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    transition: all 0.30s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
+}
+@mixin child-achor {
+    font-weight:$regularWeight;    
+    text-decoration: none;
+    outline: none;
+    cursor: pointer; 
+    color: $LastShadow;   
+}

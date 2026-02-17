@@ -1,0 +1,103 @@
+// Core variables and mixins
+@import "variables/colors";
+@import "variables/effect-bubba";
+@import "variables/typography";
+//@import "mixins";
+@import "mixin/nav-text";
+@import "mixin/landing";
+//@import "custom";
+
+
+// Reset and dependencies
+//@import "normalize";
+//@import "print";
+
+// Core CSS
+@import "partials/contents";                              // 0. table of contents
+@import "bootstrap/font-awesome/fontawesome";             // 1. fontawesome icons
+@import "bootstrap/et-line/et-line";                      // 2. et-line icons
+//@import "reboot";
+//@import "type";
+//@import "images";
+//@import "code";
+//@import "grid";
+//@import "tables";
+//@import "forms";
+//@import "buttons";
+
+
+// Global Components
+@import "partials/common-styles";       // 1. common styles
+@import "partials/colors";              // 2. colors
+@import "partials/page-loader";         // 2. page loader
+@import "partials/typography";          // 3. typography
+@import "partials/nex-prev-btns";       // 4. next and previous buttons
+@import "partials/buttons";             // 5. buttons
+//@import "partials/forms";               // 6. form fields
+@import "partials/home-section";        // 7. home section
+@import "partials/top-bar";             // 8. top bar
+@import "partials/menu-bar";            // 9. classic menu bar
+@import "partials/fullscreen-menu";     // 10. fullscreen menu
+@import "partials/section-styles";      // 11. section styles
+@import "partials/_bg-colors";          // 11.1. section styles
+@import "partials/alt-service-grid";    // 12. alternative services
+@import "partials/team-grid";           // 13. team
+@import "partials/features";            // 14. features
+@import "partials/alt-features";        // 15. alt features
+@import "partials/alt-skills";          // 16. additional skills styles
+@import "partials/benefits-grid";       // 17. benefits
+//@import "partials/counters";            // 18. counters
+@import "partials/portfolio-grid";      // 19. portfolio
+@import "partials/banner-section";      // 20. banner section
+//@import "partials/testimonial";         // 21. testimonial
+@import "partials/post-grid";           // 22. post previews
+//@import "partials/newsletter";          // 23. newsletter
+@import "partials/contact-section";     // 24. contact section
+//@import "partials/google-map";          // 25. google maps
+@import "partials/topbar-social";          // 26. top bar social links
+@import "partials/footer";              // 27. footer
+//@import "partials/blog";                // 28. blog
+//@import "partials/shop";                // 29. shop
+//@import "partials/pricing";             // 30. pricing
+@import "partials/shortcodes";          // 31. shortcodes
+@import "partials/intro-page";          // 32. intro-page
+@import "partials/magazine";            // 33. magazine - special demos
+@import "partials/landing";             // 34. landing - special demos
+@import "partials/photography-1";       // 35. photography 1 - special demos
+@import "partials/photography-2";       // 36. photography 2 - special demos
+@import "partials/sp-button";           // 37. responsive menu button
+@import "partials/sp-logo";             // 38. sp logo
+@import "partials/sp-menu";             // 39. sp menu
+@import "partials/sp-social";           // 40. social links
+@import "partials/side-panel";          // 41. white side panel
+//@import "partials/photo-tilt";          // 42. Photo Tilt effect
+//@import "partials/countdown";           // 43. coming soon page
+//@import "partials/dark-timer";          // 44. dark timer
+@import "partials/multicolumn-grid";    // 45. multicolumn grid
+//@import "partials/slick";               // 46. slick
+
+//Slick
+@import "slick/slick";                      // Slick - Slide styles
+@import "slick/_slick-theme";               // Slick Theme
+
+
+// Components
+@import "components/navigation/aod-logo";   // AOD logo
+@import "components/main/effect-bubba";     // Hover Effects - Bubba
+@import "components/main/effect-sadie";     // Hover Effects - Sadie
+@import "components/header/case-studies";   // case studies - main heading
+@import "components/main/landing";          // Index page
+@import "components/main/aboutme";          // Button Color animation toggle
+
+
+// Vendor Components
+@import "vendor/the-button";            // 1. The-Button
+@import "vendor/style-responsive";      // 2. Style Responsive
+@import "vendor/animate";               // 3. Animate
+@import "vendor/vertical-rhythm";       // 4. margin and padding - Vertical Rhythm
+@import "vendor/owl-carousel";          // 5. Owl Carousel
+@import "vendor/owl-transitions";       // 6. Owl Transitions
+@import "vendor/magnific-popup";        // 7. Magnific Popup
+
+//Fullscreen Hover loop
+//@import "fullscreenhoverloop/hover-loop"  //1. Hover-Loop

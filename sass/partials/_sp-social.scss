@@ -1,0 +1,43 @@
+/* Social links */
+
+.sp-social-links{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: inherit;
+    padding: 10px 10px 30px 10px;
+    font-size: 14px;
+    text-align: center;
+    background: transparent;
+    
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    
+    z-index: 1032;
+}
+.sp-social-links > a{
+    display: inline-block;
+    margin: 0 2px;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid rgba(255,255,255, .15);
+    text-align: center;    
+    text-decoration: none;
+    color: #555;
+    
+    -webkir-border-radius: 50%; 
+    -moz-border-radius: 50%; 
+    border-radius: 50%; 
+    
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.sp-social-links > a:hover{
+    border-color: rgba(255,255,255, .3);
+    color: #999;
+}

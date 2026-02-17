@@ -1,0 +1,292 @@
+/* ==============================
+   Common styles
+   ============================== */
+
+//::-webkit-scrollbar { display: none; }
+
+body{
+	color: $PrimeNavy;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+}
+html{
+	overflow-y: scroll;
+    -ms-overflow-style: scrollbar;
+}
+html, body{
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+.page{
+	overflow: hidden;
+}
+
+/* ============ Text link =========== */
+a{
+	color: $PrimeNavy;
+	text-decoration: underline;
+}
+a:hover{
+	color: $darkgrey;
+	text-decoration: none;
+}
+
+/* Orangy link */
+a.orangy{
+	color: $brightorange;
+	text-decoration: none;
+  position: relative;
+
+	&::after {
+		position: absolute;content: '';height: 2px;
+		/* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+		bottom: -2px;
+
+		/* center - (optional) use with adjusting width   */
+		margin: 0 auto;left: 0;right: 0;width: 100%;background: $brightorange; opacity: .1;
+
+		// optional animation
+		@include transition(opacity 0.8s ease-in-out);
+	}
+
+	// optional hover classes used with anmiation
+	&:hover::after { width: 100%; opacity: 1; background: $brightorange; }
+
+}
+
+a, b, div, ul, li{
+	-webkit-tap-highlight-color: $alphaZeroblack;
+	-webkit-tap-highlight-color: transparent;
+	-moz-outline-: none;
+}
+a:focus,
+a:active{
+	-moz-outline: none;
+	outline: none;
+}
+img:not([draggable]), embed, object, video{
+    max-width: 100%;
+    height: auto;
+}
+/* aod_orange link */
+.aod_orange_anchor{
+	color: $secondaryrange;
+	text-decoration: none;
+}
+.aod_orange_anchor:hover{
+	color: $primaryorange;
+	text-decoration: none;
+}
+
+/* ============ Alignment Syles =========== */
+.align-center{ text-align:center !important; }
+.align-left{ text-align:left !important;}
+.align-right{ text-align:right !important; }
+.left{float:left !important;}
+.right{float:right !important;}
+.relative{position:relative;}
+.absolute{position:absolute;}
+.fixed{position: fixed;}
+.hidden{display:none;}
+.inline-block{display:inline-block;}
+
+//The Z-Index
+.aod_above_others { z-index: $secondaryGrey; }
+
+.glass{ opacity: .5; };
+
+/* ============ IMG Syles =========== */
+.image-fullwidth img{
+    width: 100%;
+}
+img.fuller {
+	width: 100%;
+}
+img.half {
+	width: 50%;
+}
+.image-halfwidth img{
+    width: 50%;
+}
+
+/* ============ Stick Syles =========== */
+.stick-fixed{
+	position: fixed !important;
+	top: 0;
+	left: 0;
+}
+.stick-fixed-work{
+	position: fixed !important;
+	top: 12rem;
+	right: 26px;
+}
+.stick-fixed-bottom{
+	position: fixed !important;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+}
+.stick-fixed-middle{
+	position: fixed !important;
+	top: 25%;
+	left: 0;
+	z-index: 99;
+}
+
+/* ============ Border Syles =========== */
+.aod_border { border: 1px solid $PrimeNavy; }
+.aod_fifth_border { border: 1px solid $alphaHundredPointFourgrey; }
+.aod_eighth_border { border: 1px solid $alphaEighteenZerogrey; }
+.round{
+    -webkit-border-radius: 2px !important;
+    -moz-border-radius: 2px !important;
+    border-radius: 2px !important;
+}
+
+/* ============ Selection Syles =========== */
+::-moz-selection{ color: $primarywhite; background:$PrimeNavy; }
+::-webkit-selection{ color: $primarywhite;	background:$PrimeNavy; }
+::selection{ color: $primarywhite;	background:$brightorange; }
+
+/* ============ Aniamte Syles =========== */
+.animate, .animate *{
+	-webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.no-animate, .no-animate *{
+	-webkit-transition: 0 none !important;
+    -moz-transition: 0 none !important;
+	 -ms-transition: 0 none !important;
+    -o-transition: 0 none !important;
+    transition:0 none !important;
+}
+
+/* ============ Shadow Syles =========== */
+.shadow{
+    -webkit-box-shadow: 0px 3px 50px $alphaOneFiveblack;
+    -moz-box-shadow: 0px 3px 50px $alphaOneFiveblack;
+    box-shadow: 0px 3px 50px $alphaOneFiveblack;
+}
+.white-shadow{
+    -webkit-box-shadow: 0px 0px 200px $alphaTwowhite;
+    -moz-box-shadow: 0px 0px 200px $alphaTwowhite;
+    box-shadow: 0px 0px 200px $alphaTwowhite;
+}
+
+/* ============ Clearlist Syles =========== */
+.clearlist, .clearlist li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+/* ============ full-wrapper Syles =========== */
+.full-wrapper {
+    margin: 0.5% 2%;
+}
+
+.fullscreen-wrapper {
+	max-width: 100%;
+  margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+		@media only screen and (min-width: 768px) {
+			margin-right: auto;
+			margin-left: auto;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+}
+
+/* ============ Containers Syles =========== */
+.container-fluid{
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 4em;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+		@media only screen and (min-width: 768px) {
+				padding: 0 1em;
+		}
+}
+
+.aod-container-small {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 4em;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+		@media only screen and (min-width: 768px) {
+				padding: 0 1em;
+		}
+
+}
+
+.aod-container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 4em;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+		@media only screen and (min-width: 768px) {
+				padding: 0 1em;
+		}
+
+}
+
+.about-container-fluid{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100vh;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* ============ Body Masked Syles =========== */
+.body-masked{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: $primarywhite url(../images/loader.gif) no-repeat center center;
+	z-index: 100000;
+}
+
+.mask-delay{
+	-webkit-animation-delay: 0.75s;
+	-moz-animation-delay: 0.75s;
+	animation-delay: 0.75s;
+}
+.mask-speed{
+	-webkit-animation-duration: 0.25s !important;
+	-moz-animation-duration: 0.25s !important;
+	animation-duration: 0.25s !important;
+}
+iframe{
+    border: none;
+}

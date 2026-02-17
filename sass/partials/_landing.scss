@@ -1,0 +1,71 @@
+/* ==============================
+   Special demos
+   ============================== */
+
+/*
+ * Landing
+ */
+
+.play-video-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: $primaryblack;
+}
+.play-video-link:hover,
+.play-video-link:focus{
+    color: $seventhgrey;
+    text-decoration: none;
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.play-video-link .fa{
+    vertical-align: middle;
+}
+
+.download-button{
+    display: inline-block;
+    position: relative;
+    padding: 13px 20px 13px 55px;
+    border: 2px solid $primaryblack;
+    text-align: left;
+    text-decoration: none;
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.download-button:hover,
+.download-button:focus{
+    text-decoration: none;
+    color: $primaryblack;
+    opacity: .6;
+}
+.db-icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+}
+.db-title{
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.db-descr{
+    display: block;
+    font-size: 11px;
+    color: $seventhgrey;
+    font-weight: 400;
+}

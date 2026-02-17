@@ -1,0 +1,25 @@
+/*------------------------------*/
+/***** Bubba Effect Mixins *****/
+/*----------------------------*/
+
+@mixin transition($detail) {
+    -webkit-transition: $detail;  
+    -moz-transition: $detail;  
+    -o-transition: $detail; 
+    -ms-transition: $detail; 
+    transition: $detail;    
+}
+@mixin psuedo-before-after {               
+    content: "";
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    background: $primarywhite;
+    top: 2.6em;
+    left: 2em;
+    @include transition(width 0.2s ease-in-out);
+    
+    @media (min-width:768px) {
+        top: 3.1em;
+    }
+}

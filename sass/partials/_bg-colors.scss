@@ -1,0 +1,573 @@
+/* ==============================
+   BG-COLOURS
+   ============================== */
+
+.bg-scroll{
+	background-attachment: scroll !important;
+}
+.bg-pattern{
+	background-repeat: repeat;
+	background-size: auto;
+}
+.bg-pattern-over:before,
+.bg-pattern-over .YTPOverlay:after{
+  content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+  background-repeat: repeat;
+	background-size: auto;
+	background-image: url(../images/pattern-bg-2.png);
+}
+
+
+.bg-dark,
+.bg-dark-lighter,
+.bg-dark-alfa-30,
+.bg-dark-alfa-50,
+.bg-dark-alfa-70,
+.bg-dark-alfa-90,
+.bg-dark-alfa,
+.bg-color,
+.bg-color-lighter,
+.bg-color-alfa-30,
+.bg-color-alfa-50,
+.bg-color-alfa-70,
+.bg-color-alfa-90,
+.bg-color-alfa{
+	color: #fff;
+}
+.bg-dark a,
+.bg-dark-lighter a,
+.bg-dark-alfa-30 a,
+.bg-dark-alfa-50 a,
+.bg-dark-alfa-70 a,
+.bg-dark-alfa-90 a,
+.bg-dark-alfa a,
+.bg-color a,
+.bg-colorlighter a,
+.bg-color-alfa-30 a,
+.bg-color-alfa-50 a,
+.bg-color-alfa-70 a,
+.bg-color-alfa-90 a,
+.bg-color-alfa a{
+	  color: rgba(255,255,255, .8);
+    padding-bottom: 3px;
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.bg-dark a:hover,
+.bg-dark-lighter a:hover,
+.bg-dark-alfa-30 a:hover,
+.bg-dark-alfa-50 a:hover,
+.bg-dark-alfa-70 a:hover,
+.bg-dark-alfa-90 a:hover,
+.bg-dark-alfa a:hover,
+.bg-color a:hover,
+.bg-color-lighter a:hover,
+.bg-color-alfa-30 a:hover,
+.bg-color-alfa-50 a:hover,
+.bg-color-alfa-70 a:hover,
+.bg-color-alfa-90 a:hover,
+.bg-color-alfa a:hover{
+	  color: rgba(255,255,255, 1);
+    text-decoration: none;
+}
+
+.bg-color .text,
+.bg-color-lighter .text,
+.bg-color-alfa-30 .text,
+.bg-color-alfa-50 .text,
+.bg-color-alfa-70 .text,
+.bg-color-alfa-90 .text,
+.bg-color-alfa .text,
+.bg-color .section-text,
+.bg-color-lighter .section-text,
+.bg-color-alfa-30 .section-text,
+.bg-color-alfa-50 .section-text,
+.bg-color-alfa-70 .section-text,
+.bg-color-alfa-90 .section-text,
+.bg-color-alfa .section-text{
+	color: rgba(255,255,255, .75);
+}
+
+.bg-color .white,
+.bg-color-lighter .whitet,
+.bg-color-alfa-30 .white,
+.bg-color-alfa-50 .white,
+.bg-color-alfa-70 .white,
+.bg-color-alfa-90 .white,
+.bg-color-alfa .white{
+	color: #fff;
+}
+
+
+.bg-dark{
+	background-color: #111;
+}
+.bg-dark-lighter{
+	background-color: #252525;
+}
+.bg-dark-alfa:before,
+.bg-dark-alfa .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(17,17,17, .97);
+}
+.bg-dark-alfa-30:before,
+.bg-dark-alfa-30 .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(34,34,34, .3);
+}
+.bg-dark-alfa-50:before,
+.bg-dark-alfa-50 .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(34,34,34, .5);
+}
+.bg-dark-alfa-70:before,
+.bg-dark-alfa-70 .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(17,17,17, .7);
+}
+.bg-dark-alfa-90:before,
+.bg-dark-alfa-90 .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(3,3,3, .9);
+}
+.bg-light-alfa:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(252,252,252, .97);
+}
+.bg-light-alfa-30:before,
+.bg-light-alfa-30 .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(252,252,252, .30);
+}
+.bg-light-alfa-50:before,
+.bg-light-alfa-50 .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(252,252,252, .50);
+}
+.bg-light-alfa-70:before,
+.bg-light-alfa-70 .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(252,252,252, .7);
+}
+.bg-light-alfa-90:before,
+.bg-light-alfa-90 .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(252,252,252, .9);
+}
+.bg-color{
+    background-color: #e41919;
+}
+.bg-color-alfa:before,
+.bg-color-alfa .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #e41919;
+  opacity: .97;
+}
+.bg-color-alfa-30:before,
+.bg-color-alfa-30 .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #e41919;
+  opacity: .3;
+}
+.bg-color-alfa-50:before,
+.bg-color-alfa-50 .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #e41919;
+  opacity: .5;
+}
+.bg-color-alfa-70:before,
+.bg-color-alfa-70 .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #e41919;
+  opacity: .7;
+}
+.bg-color-alfa-90:before,
+.bg-color-alfa-90 .YTPOverlay:before{
+	content: " ";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #e41919;
+  opacity: .9;
+}
+
+
+/*------------------------------------------------------------------
+[Background Images]
+
+.deka-bg-orange:
+.deka-bg-yellow:
+.deka-bg-light-yellow
+.deka-bg-cyan
+.deka-bg-green
+.deka-bg-blue
+.deka-bg-red
+.deka-bg-dark-turquise
+.deka-bg-orange-gradient */
+
+
+/* ==============================
+   Deka Container styles
+   ============================== */
+
+.deka-lg-container {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    border: none;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.deka-md-container {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    border: none;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.deka-sm-container {
+    max-width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    border: none;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.deka-bg-content{
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+/* ==============================
+   Deka Brackground Color styles
+   ============================== */
+
+/*
+ * Header common styles
+ */
+
+.deka-bg-dark-blue {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	background-color: #1f4360 !important;
+	-webkit-transition: background-color 1500ms ease-in-out;
+	-moz-transition: background-color 1500ms ease-in-out;
+	transition: background-color 1500ms ease-in-out;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	margin:  0;
+	padding: 0;
+}
+
+@media screen and (max-width:767px){
+.deka-bg-dark-blue {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	background-color: #1f4360 !important;
+	-webkit-transition: background-color 1500ms ease-in-out;
+	-moz-transition: background-color 1500ms ease-in-out;
+	transition: background-color 1500ms ease-in-out;
+}}
+.deka-bg-dark-dark {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	background-color: #212226 !important;
+	-webkit-transition: background-color 1500ms ease-in-out;
+	-moz-transition: background-color 1500ms ease-in-out;
+	transition: background-color 1500ms ease-in-out;
+}
+.deka-bg-orange {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	padding: 0;
+	background-color: #ff7f01 !important;
+	-webkit-transition: background-color 1500ms ease-in-out;
+	-moz-transition: background-color 1500ms ease-in-out;
+	transition: background-color 1500ms ease-in-out;
+}
+.deka-bg-yellow {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	background-color: #ffce02 !important;
+	-webkit-transition: background-color 1500ms ease-in-out;
+	-moz-transition: background-color 1500ms ease-in-out;
+	transition: background-color 1500ms ease-in-out;
+}
+.deka-bg-light-yellow {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*padding: 180px 0;*/
+	background-color: #feca25 !important;
+	-webkit-transition: background-color 1500ms ease-in-out;
+	-moz-transition: background-color 1500ms ease-in-out;
+	transition: background-color 1500ms ease-in-out;
+}
+.deka-bg-cyan {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	background-color: #27c5c3 !important;
+	-webkit-transition: background-color 1500ms ease-in-out;
+	-moz-transition: background-color 1500ms ease-in-out;
+	transition: background-color 1500ms ease-in-out;
+}
+.deka-bg-green {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	background-color: #58bf44 !important;
+	-webkit-transition: background-color 1500ms ease-in-out;
+	-moz-transition: background-color 1500ms ease-in-out;
+	transition: background-color 1500ms ease-in-out;
+}
+.deka-bg-light-grey {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	background-color: #cccccc !important;
+	-webkit-transition: background-color 1500ms ease-in-out;
+	-moz-transition: background-color 1500ms ease-in-out;
+	transition: background-color 1500ms ease-in-out;
+}
+.deka-bg-blue {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	background-color: #43a5de !important;
+	-webkit-transition: background-color 1500ms ease-in-out;
+	-moz-transition: background-color 1500ms ease-in-out;
+	transition: background-color 1500ms ease-in-out;
+}
+.deka-bg-red {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	background-color: #e13939 !important;
+	-webkit-transition: background-color 1500ms ease-in-out;
+	-moz-transition: background-color 1500ms ease-in-out;
+	transition: background-color 1500ms ease-in-out;
+}
+.deka-bg-dark-turquise {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	background-color: #11273a !important;
+	-webkit-transition: background-color 1500ms ease-in-out;
+	-moz-transition: background-color 1500ms ease-in-out;
+	transition: background-color 1500ms ease-in-out;
+}
+
+.deka-bg-orange-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff7d01+0,fc9b0e+100 */
+    background: rgb(255,125,1); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(255,125,1,1) 0%, rgba(252,155,14,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(255,125,1,1) 0%,rgba(252,155,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(255,125,1,1) 0%,rgba(252,155,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7d01', endColorstr='#fc9b0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

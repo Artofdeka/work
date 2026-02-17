@@ -1,0 +1,11 @@
+/* Dark Timer */
+
+.countdown.dark .countdown-number{
+    color: $primarywhite;
+}
+.countdown.dark .countdown-number > b{
+    color: $agrey;
+}
+.countdown.dark .countdown-number:before{
+    background: $alphaEightyblack;
+}

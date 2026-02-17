@@ -1,0 +1,41 @@
+/* ==============================
+   Features
+   ============================== */
+
+.features-item{
+	padding: 15px;
+	text-align: center;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.features-icon{
+	font-size: 48px;
+	line-height: 1.3;
+	color: $alphaNintywhite;
+}
+.features-title{
+	margin-bottom: 3px;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: $alphaNintywhite;
+}
+
+.features-descr{
+	font-size: 15px;
+    font-weight: 300;
+	color: $alphaSeventywhite;
+}
+
+.features-icon.black{
+	color: $alphaNintyblack;
+}
+.features-title.black{
+	color: $alphaNintyblack;
+}
+.features-descr.black{
+	color: $alphaSevenblack;
+}

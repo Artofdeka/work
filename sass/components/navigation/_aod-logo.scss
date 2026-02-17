@@ -1,0 +1,200 @@
+/*  ------------- logo styles -------------  */
+
+//artofdeka logo
+.icon_artofdeka_lg {
+    display: block;
+    width: 6.5em;
+    //height: 7.5em;
+    margin-top: -0.8em;
+    //margin: 0 auto;
+    margin-right: 0em;
+    fill: currentColor;
+    z-index: 9999999999999999999999999;
+}
+
+//artofdeka navy logo
+.icon_artofdeka_color {
+    display: block;
+    width: 6.5em;
+    //height: 7.5em;
+    margin-top: -0.8em;
+    //margin: 0 auto;
+    margin-right: 0em;
+    fill: $primarynavy;
+    z-index: 9999999999999999999999999;
+}
+
+//aod container
+.aod-centered {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 20em;
+    height: 20em;
+}
+
+//deka sketch icon
+.icon_deka_sketch {
+    display: block;
+    width: 10em;
+    height: 10em;
+    margin: 0;
+    fill: currentColor;
+}
+
+.icon_aodeka_sketch {
+    display: block;
+    width: 100%;
+    margin: 0;
+    fill: currentColor;
+}
+
+
+.icon_aod_sketch {
+  display: block;
+  width: 100%;
+  margin: 0;
+  fill: currentColor;
+}
+
+.icon-mar-left {
+  margin-left: 0em;
+  @media only screen and (min-width: 1024px) {
+      margin-left: 0em;
+  }
+}
+
+.aod-text-absolute {
+  position: relative;
+   top: 0em;
+   left: 0em;
+   @media only screen and (min-width: 1024px) {
+     position: absolute;
+     top: 0em;
+     left: 0em;
+   }
+}
+
+.aod_sketch {
+    color: $primarynavy;
+}
+
+//about me and what i do container
+.dis-what-i-do {
+    position: absolute;
+    width: 19em;
+    height: 8em;
+    top: 33%;
+    left: 46%;
+}
+
+//about me and what i do icon
+.icon_what-i-do {
+    display: block;
+    width: 22em;
+    height: 11em;
+    margin: 0;
+    margin-right: 0;
+    fill: currentColor;
+    @media only screen and (min-width: 768px) {
+        margin-left: -3em;
+    }
+    @media only screen and (min-width: 1200px) {
+        margin-left: -5em;
+    }
+}
+
+.about-deka {
+   fill:$primarywhite;
+}
+
+.about-deka-two {
+   fill:$secondaryblack;
+}
+
+//about me heading
+.icon_big_me_1 {
+    display: inline-block;
+    width: 40em;
+    height: 24em;
+    margin: 0;
+    fill: currentColor;
+}
+
+//about me container
+.big-me-me {
+    position: absolute;
+    width: 15em;
+    height: 40em;
+    top: 30%;
+    left: 16%;
+}
+//about me heading
+.icon_big_me_2 {
+    position: relative;
+    display: block;
+    width: 15em;
+    height: 40em;
+    margin: 0;
+    fill: currentColor;
+}
+.me-me-me {
+    fill: $primarywhite;
+}
+
+//Aod text container
+.me-text {
+    position: absolute;
+    display: block;
+    top: 45%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+
+//Skills
+.aod_icon_skills {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+	top: 0;
+	border: 0;
+	right: 0;
+    fill: currentColor;
+}
+
+.aod_color_shadow_opacity {
+    opacity:0.25;
+}
+.aod_color_darkgrey {
+    color: $darkgrey;
+}
+
+
+
+
+.icon_hjd_heading {
+    display: block;
+    width: 100%;
+    margin: 0;
+    fill: currentColor;
+}
+
+.icon_hjd_date {
+    display: block;
+    width: 100%;
+    margin: 0;
+    fill: currentColor;
+}
+
+.icon_hjd_venue{
+    display: block;
+    width: 100%;
+    margin: 0;
+    fill: currentColor;
+}
+
+.hjd_bg_green {
+  background-color: #2bb673;
+}

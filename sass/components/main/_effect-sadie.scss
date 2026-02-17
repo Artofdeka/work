@@ -1,0 +1,139 @@
+/* Common style */
+.sadie-grid figure {
+	position: relative;
+	//float: left;
+	overflow: hidden;
+	margin: 0;
+    padding: 0;
+	//min-width: 320px;
+	//max-width: 100%;
+	//max-height: 300px;
+	width: 100%;
+	background: #fff;
+  //background: #212226;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sadie-grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	width: 100%;
+	opacity: 1;
+	border-radius: 8px;
+}
+
+.sadie-grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: none;
+	font-size: 0.7em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.sadie-grid figure figcaption::before,
+.sadie-grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.sadie-grid figure figcaption,
+.sadie-grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+/**/
+.sadie-grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.sadie-grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.sadie-grid figure h2 span {
+	font-weight: 800;
+}
+
+.sadie-grid figure h2,
+.sadie-grid figure p {
+	margin: 0;
+}
+
+.sadie-grid figure p {
+    text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 100%;
+}
+
+
+/*---------------*/
+/***** Sadie *****/
+/*---------------*/
+/**/
+figure.effect-sadie figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(top, rgba(33,34,38,0) 0%, rgba(33,34,38,0) 75%);
+	background: linear-gradient(to bottom, rgba(33,34,38,0) 0%, rgba(33,34,38,0) 75%);
+	content: '';
+	opacity: 0;
+	-webkit-transform: translate3d(0,50%,0);
+	transform: translate3d(0,50%,0);
+}
+
+figure.effect-sadie h2 {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	color: $secondarywhite;
+	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
+	transition: transform 0.35s, color 0.35s;
+	-webkit-transform: translate3d(0,-50%,0);
+	transform: translate3d(0,-50%,0);
+}
+
+figure.effect-sadie figcaption::before, figure.effect-sadie p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-sadie p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 2em;
+	width: 100%;
+	opacity: 0;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+figure.effect-sadie:hover h2 {
+	color: $primarywhite;
+	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-80px,0);
+	transform: translate3d(0,-50%,0) translate3d(0,-80px,0);
+}
+
+figure.effect-sadie:hover figcaption::before, figure.effect-sadie:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}

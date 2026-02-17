@@ -1,0 +1,32 @@
+/* ==============================
+   Alt features
+   ============================== */
+
+.alt-features-grid{
+    margin-top: -70px;
+}
+.alt-features-item{
+    margin-top: 70px;
+}
+.alt-features-icon{
+    padding-top: 10px;
+    font-size: 48px;
+    line-height: 1.3;
+    color: $primaryblack;
+}
+.alt-features-icon img{
+    width: 100%;
+}
+.alt-features-title{
+    margin-bottom: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+}
+.alt-features-descr {
+    color: $primarygrey;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.86
+}

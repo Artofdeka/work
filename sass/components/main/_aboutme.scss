@@ -1,0 +1,43 @@
+
+
+//Main Content-Centered
+.main-boutme-parent {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    //from 768 - upwards
+    @media only screen and (min-width: 768px) {
+        height: 100vh;
+    }
+
+    //from 1440 - upwards
+    @media only screen and (min-width: 1440px) {}
+
+    .main-boutme-child {
+        width: 900px;
+        height: 60vh;
+        margin: auto;
+
+        .aod-me-parent {
+          display: flex;
+          justify-content: space-between;
+          align-content: center;
+
+          .aod-me-child-left {
+              //from 768 - upwards
+              @media only screen and (min-width: 768px) {
+                  flex: 1;
+              }
+          }
+
+          .aod-me-child-right {
+              //from 768 - upwards
+              @media only screen and (min-width: 768px) {
+                  flex: 1;
+              }
+          }
+        }
+
+    }
+}

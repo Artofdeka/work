@@ -1,0 +1,181 @@
+/* ==============================
+   Font Colors - AOD COLOR PALLETE
+   ============================== */
+
+   // 0. aod-color-prime:
+	 .aod_color_prime { color: $brightorange; }
+	 .aod_bg_color_prime { background-color: $brightorange; }
+	 .aod_color_prime_dark { color: $PrimeNavy; }
+	 .aod_bg_color_prime_dark { background-color: $PrimeNavy; }
+	 .aod_bg_prime_dark { background-color: $PrimeNavy; }
+
+   // 1. aod-color-prime-white: $primarywhite;
+	 .aod_color_prime_white { color: $primarywhite; }
+	 .bg-white{
+		 background-color: $primarywhite !important;
+		 -webkit-transition: background-color 1500ms ease-in-out;
+		 -moz-transition: background-color 1500ms ease-in-out;
+		 transition: background-color 1500ms ease-in-out;
+	 }
+	 .aod_bg_prime_white { background-color: $primarywhite; }
+	 .aod_bg_blur_white { background-color: $primarywhite; }
+
+	 // 1. aod-color-prime-black: $primaryblack;
+	 // 1. aod-color-orange:
+   // 2. aod-color-yellow:
+   // 3. aod-color-light-yellow
+   // 4. aod-color-cyan
+   // 5. aod-color-green
+   // 6. aod-color-blue
+   // 7. aod-color-red
+   // 8. aod-color-dark-turquise
+   // 9. aod-color-orange-gradient
+
+
+	 .aod_text{ font-size: 1em; font-weight: 300; line-height: 1.8; color: #5f5f5f; }
+
+//.aod_text h1, .aod_text h2, .aod_text h3, .aod_text h4, .aod_text h5, .aod_text h6 { color: $primaryblack; }
+
+
+.aod_bright_orange { color: $primaryblue; }
+.aod_bright_orange_bg { background-color: $primaryblue; }
+//The Oranges
+.aod_prime_orange { color: $primaryorange; }
+.aod_sec_orange { color: $secondaryrange; }
+//.aod_bright_orange { color: $lightorange; }
+//.aod_bright_orange { color: $brightorange; }
+
+.aod-color-orange { color: #ff7f01 !important;	-webkit-transition: color 1500ms ease-in-out;	-moz-transition: color 1500ms ease-in-out; transition: color 1500ms ease-in-out; }
+//color: #ff7f01 !important;
+.aod-color-orange-gradient { @include gradient($primaryorange, $secondaryrange);	-webkit-transition: color 1500ms ease-in-out;	-moz-transition: color 1500ms ease-in-out;
+	transition: color 1500ms ease-in-out; }
+//The Oranges
+.aod_prime_orange_bg { background-color: $primaryorange; }
+.aod_secondary_orange_bg { background-color: $secondaryrange; }
+//.aod_bright_orange_bg { background-color: $brightorange; }
+.bg-orange{ background-color: $brightorange !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 1500ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+.aod_opac_orange_bg { background-color: $alphaSecondaryOrange; }
+
+
+
+.aod_text_dark {color: $primaryblack;}
+.aod_text_red {color: $secondaryred;}
+.aod_text_green {color: $primegreen;}
+.aod_text_yellow {color: $primeyellow;}
+
+
+//The Whites
+.aod_color_sec_white { color: $secondarywhite; }
+.aod_sec_white { color: $secondarywhite; }
+.aod_color_alphaseven_white { color: $alphaSeventywhite; }
+
+
+//The Blacks
+.black { color: $darkblack; }
+.aod_color_prime_black { color: $primaryblack; }
+.aod_color_sec_dark { color: $secondaryblack; }
+.aod_color_third_dark { color: $thirdblack; }
+.aod_color_fifth_dark { color: $OneFiveblack; }
+.aod_color_dark_grey { color: $darkgrey; }
+
+//The dark
+
+//The Blues
+//.aod_color_prime_blue { color: $primaryblue; }
+//.aod_color_bright_blue { color: $brightblue; }
+//.aod-color-blue { color: #43a5de;	-webkit-transition: color 1500ms ease-in-out;	-moz-transition: color 1500ms ease-in-out; transition: color 1500ms ease-in-out; }
+//.aod_color_darkblue { color: $darkblue !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 1500ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+
+//The Navys
+.aod_color_navy { color: $primarynavy; }
+.navy{ color: $primarynavy; }
+
+//The Greys
+.aod_color_sec_grey { color: $secondaryGrey; }
+.aod_color_fifth_grey { color: $fifthgrey; }
+.st012 { color: rgba($secondaryGrey,.4); }
+.aod_color_mid_shadow { color: $MidShadow; }
+
+//The Greens
+.aod_color_hjd_green { color: $hjdgreen;}
+.aod_color_nedgreen { color: $nedbankgreen; }
+.aod_color_bright_nedgreen { color: $nebankbrightgreen; }
+.aod-color-green { color: #58bf44;	-webkit-transition: color 1500ms ease-in-out;	-moz-transition: color 1500ms ease-in-out; transition: color 1500ms ease-in-out; }
+
+//The Reds
+.darkred { color: $secondaryred; }
+.color { color: $Efourred !important; }
+.aod_color_prime_red { color: $EOnered !important; }
+.aod_color_sec_red { color: $secondaryred; }
+.aod_secondary_red { color: $secondaryred; }
+.aod_color_third_red { color: $TwoTwoEightred; }
+.aod-color-red { color: $EOnered; -webkit-transition: color 1500ms ease-in-out; -moz-transition: color 1500ms ease-in-out; transition: color 1500ms ease-in-out; }
+
+//The Yellows
+.aod_color_hjdyellow { color: $hjdyellow;}
+.aod-color-yellow { color: #ffce02; -webkit-transition: color 1500ms ease-in-out; -moz-transition: color 1500ms ease-in-out; transition: color 1500ms ease-in-out; }
+.aod-color-light-yellow { color: #feca25;	-webkit-transition: color 1500ms ease-in-out;	-moz-transition: color 1500ms ease-in-out;	transition: color 1500ms ease-in-out; }
+.aod_color_darkyellow { color: $darkyellow !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 1500ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+
+//The Cyans
+.aod-color-cyan { color: #27c5c3;	-webkit-transition: color 1500ms ease-in-out;	-moz-transition: color 1500ms ease-in-out;	transition: color 1500ms ease-in-out; }
+.aod-color-dark-turquise { color: #11273a;	-webkit-transition: color 1500ms ease-in-out;	-moz-transition: color 1500ms ease-in-out;	transition: color 1500ms ease-in-out; }
+
+
+/* ==============================
+   Background Colors
+   ============================== */
+//The Whites
+
+.aod_bg_sec_white { background-color: $secondarywhite; }
+.aod_bg_fourthsec_white { background-color: $FirstSecondarywhite; }
+
+//The Blacks
+.aod_bg_dark_black { background-color: $darkblack; }
+.aod_bg_third_black { background-color: $thirdblack; }
+.aod_bg_prime_black { background-color: $primaryblack; }
+.aod_bg_sec_black { background-color: $secondaryblack; }
+
+.aod_bg_dark_dark{ background-color: $secondaryblack !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 15000ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+
+//The Greys
+.aod_dark_grey_bg { background-color: $darkgrey; }
+.aod_bg_moon_grey { background-color: $MoonlightGrey; }
+.bg-gray-darker{ background-color: $CCgrey; }
+.bg-light-grey{ background-color: $CCgrey !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 1500ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+
+//The Blues
+.aod_bg_prime_blue { background-color: $primaryblue; }
+.aod_bg_bright_blue { background-color: $brightblue; }
+.bg-blue{ background-color: $primaryblue; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 1500ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+.bg-dark-blue{ background-color: $primarynavy !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 1500ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+.aod_bg_darkblue { background-color: $darkblue !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 1500ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+
+//The Greens
+.aod_bg_hjd_green { background-color: $hjdgreen;}
+.aod_bg_nedgreen { background-color: $nedbankgreen; }
+.aod_bg_light_green { background-color: $lightgreen; }
+.aod_bg_bright_nedgreen { background-color: $nebankbrightgreen; }
+.bg-green{ background-color: $primegreen !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 1500ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+
+//The Reds
+.aod_bg_sec_red { background-color: $secondaryred; }
+.aod_red_bg { background-color: $secondaryred; }
+.aod_darkred_bg { background-color: $secondaryred; }
+.aod_secondary_red_bg { background-color: $secondaryred; }
+.aod_bg_red{ background-color: $EOnered !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 15000ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+
+//The Navys
+.aod_prime_navy_bg { background-color: $primarynavy; }
+.aod_secondary_navy_bg { background-color: $secondaryNavy; }
+.aod_navy_bg { background-color: $primarynavy; }
+
+//The Yellows
+.bg-yellow{ background-color: $primeyellow !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 1500ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+.bg-light-yellow{ background-color: $secondyellow !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 1500ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+.aod_bg_darkyellow { background-color: $darkyellow !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 1500ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+
+//The Cyans
+.bg-cyan{ background-color: $primecyan !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 1500ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+.bg-dark-turquise{ background-color: $primeturquise !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 15000ms ease-in-out; transition: background-color 1500ms ease-in-out; }
+.bg-purple{ background-color: $primepurple !important; -webkit-transition: background-color 1500ms ease-in-out; -moz-transition: background-color 1500ms ease-in-out; transition: background-color 1500ms ease-in-out; }

@@ -1,0 +1,290 @@
+/* ==============================
+   Buttons
+   ============================== */
+
+.fm-social-btn{
+    display: block;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 54px;
+    height: 54px;
+    background: none;
+	border: 2px solid $primarywhite;
+    opacity: .85;
+    text-indent: -12345px;
+    z-index: 1030;
+
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    border-radius: 0%;
+}
+.fm-social-btn:hover{
+    opacity: 1;
+}
+
+.btn-mod,
+a.btn-mod{
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 4px 13px;
+  color: $primarywhite;
+  background: $alphaThirtyFourgrey;
+	border: 2px solid transparent;
+	font-size: 12px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+	-webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.btn-mod:hover,
+.btn-mod:focus,
+a.btn-mod:hover,
+a.btn-mod:focus{
+	font-weight: 800;
+	color: $alphaEightywhite;
+  	background: $alphaSevenblack;
+	text-decoration: none;
+    outline: none;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.btn-mod:active{
+	cursor: pointer !important;
+    outline: none !important;
+}
+
+.btn-mod.btn-custom{
+    height: auto;
+  	padding: 20px 10px;
+	font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.btn-mod.btn-small{
+    height: auto;
+  	padding: 6px 17px;
+	font-size: 11px;
+    letter-spacing: 1px;
+}
+.btn-mod.btn-medium{
+    height: auto;
+  	padding: 8px 37px;
+	font-size: 12px;
+}
+.btn-mod.btn-large{
+    height: auto;
+  	padding: 12px 45px;
+	font-size: 13px;
+}
+
+.btn-mod.btn-glass{
+  	color: $alphaSeventywhite;
+  	background: $alphaFourblack;
+}
+.btn-mod.btn-glass:hover,
+.btn-mod.btn-glass:focus{
+  	color: $alphawhite;
+  	background: $alphablack;
+}
+
+.btn-mod.btn-border{
+  	color: $primarynavy;
+	border: 0.19898rem solid $primarynavy;
+  	background: transparent;
+}
+.btn-mod.btn-border:hover,
+.btn-mod.btn-border:focus{
+  	color: $secondarywhite;
+	border-color: transparent;
+  	background: $primarynavy;
+}
+
+.btn-mod.btn-border-c{
+  	color: $Efourred;
+	border: 2px solid $Efourred;
+  	background: transparent;
+}
+.btn-mod.btn-border-c:hover,
+.btn-mod.btn-border-c:focus{
+  	color: $primarywhite;
+	border-color: transparent;
+  	background: $Efourred;
+}
+
+.btn-mod.btn-border-w{
+  	color: $primarywhite;
+	  border: 2px solid $alphaSeventywhite;
+  	background: transparent;
+}
+.btn-mod.btn-border-w:hover,
+.btn-mod.btn-border-w:focus{
+  	color: $primaryblack;
+	  border-color: transparent;
+  	background: $primarywhite;
+}
+
+.btn-mod.btn-border-orange{
+  	color: $primaryorange;
+	  border: 2px solid $primaryorange;
+  	background: transparent;
+}
+.btn-mod.btn-border-orange:hover,
+.btn-mod.btn-border-orange:focus{
+  	color: $primaryorange;
+	  border-color: transparent;
+  	background: $primarywhite;
+}
+
+.btn-mod.btn-border-bright-orange{
+  	color: $brightorange;
+	  border: 3px solid $brightorange;
+  	background: transparent;
+}
+.btn-mod.btn-border-bright-orange:hover,
+.btn-mod.btn-border-bright-orange:focus{
+  	color: $primarywhite;
+	  border-color: transparent;
+  	background: $brightorange;
+}
+
+.btn-mod.btn-bright-orange{
+  color: $primarywhite;
+  border-color: 3px solid $brightorange;
+  background: $brightorange;
+}
+.btn-mod.btn-bright-orange:hover,
+.btn-mod.btn-bright-orange:focus{
+  color: $primarywhite;
+  border: 3px solid $brightorange;
+  background: $brightorange;
+}
+
+.btn-mod.btn-border-sec-black{
+  	color: $secondaryblack;
+	  border: 2px solid $secondaryblack;
+  	background: transparent;
+}
+.btn-mod.btn-border-sec-black:hover,
+.btn-mod.btn-border-sec-black:focus{
+  	color: $primarywhite;
+	  border: 2px solid $secondaryblack;
+  	background: $secondaryblack;
+}
+
+.btn-mod.btn-w{
+  	color: $PrimeNavy;
+  	background: $alphaEightywhite;
+}
+.btn-mod.btn-w:hover,
+.btn-mod.btn-w:focus{
+  	color: $PrimeNavy;
+  	background: $primarywhite;
+}
+
+.btn-mod.btn-w-color{
+  	color: $Efourred;
+  	background: $primarywhite;
+}
+.btn-mod.btn-w-color:hover,
+.btn-mod.btn-w-color:focus{
+	color: $OneFiveblack;
+  	background: $primarywhite;
+}
+
+.btn-mod.btn-gray{
+  	color: $seventhgrey;
+  	background: $EFivewhite;
+}
+.btn-mod.btn-gray:hover,
+.btn-mod.btn-gray:focus{
+  	color: $fourthgrey;
+  	background: $DFivewhite;
+}
+
+.btn-mod.btn-color{
+  	color: $primarywhite;
+  	background: $Efourred;
+}
+.btn-mod.btn-color:hover,
+.btn-mod.btn-color:focus{
+  	color: $primarywhite;
+  	background: $Efourred;
+    opacity: .85;
+}
+
+.btn-mod.btn-circle{
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+.btn-mod.btn-round{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.btn-mod.btn-rounded{
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.btn-icon{
+	position: relative;
+    border: none;
+    overflow: hidden;
+}
+.btn-icon.btn-small{
+	overflow: hidden;
+}
+.btn-icon > span{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	margin-top: -25px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	color: $seventhgrey;
+	font-size: 48px;
+	opacity: .2;
+
+	-webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.btn-icon:hover > span{
+	opacity: 0;
+
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+}
+.btn-icon > span.white{
+    color: $primarywhite;
+}
+.btn-icon > span.black{
+    color: $PrimeNavy;
+}
+.btn-full{
+	width: 100%;
+}

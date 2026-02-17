@@ -1,0 +1,17 @@
+/* Logo */
+ .sp-logo-wrap{
+}
+.sp-logo-wrap .logo{
+    display: block;
+    padding: 30px;
+    text-align: center;
+    
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+} 
+.sp-logo-wrap .logo img{
+    max-width: 100%;
+}

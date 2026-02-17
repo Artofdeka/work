@@ -1,0 +1,59 @@
+header {
+    h1 {
+        font-size: $sizeFourty;
+        margin: 0;
+        font-weight: 600;
+        @media only screen and (min-width: 768px) {
+            font-size: $sizeSixtyFour;
+        }
+    }
+}
+
+
+.case-master-mar-l {
+    margin-left: 0;
+    //from 768 - upwards
+    @media only screen and (min-width: 768px) {
+        margin-left: 9em;
+    }
+}
+
+.aod_wallpaper img {
+  width: 100%;
+}
+
+.aod-case-img-sml {
+    position: absolute;
+    top: 90em;
+    right: 0;
+    z-index: 99999999;
+    @media only screen and (max-width: 2560px) { top: 90em; }
+    @media only screen and (max-width: 1920px) { top: 92em; }
+    @media only screen and (max-width: 1586px) { top: 85em; }
+    @media only screen and (max-width: 1440px) { top: 80em; }
+    @media only screen and (max-width: 1280px) { top: 76em; }
+    @media only screen and (max-width: 1024px) { top: 76em; }
+}
+
+.aod-case-img-sml {
+  div {
+    img {
+      @media only screen and (max-width: 2560px) { width: 1000px; }
+      @media only screen and (max-width: 1920px) { width: 850px; }
+      @media only screen and (max-width: 1556px) { width: 750px; }
+      @media only screen and (max-width: 1440px) { width: 750px; }
+      @media only screen and (max-width: 1280px) { width: 680px; }
+      @media only screen and (max-width: 1024px) { width: 580px; }
+
+    }
+  }
+}
+
+.icon_joburgday {
+    display: block;
+    width: 30em;
+    height: 30em;
+    margin: 0 auto;
+    margin-right: 0em;
+    fill: currentColor;
+}

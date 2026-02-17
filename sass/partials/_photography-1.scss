@@ -1,0 +1,66 @@
+/* ==============================
+   Special demos
+   ============================== */
+
+/*
+ * Photography 1
+ */
+
+.fullwidth-slideshow{
+    cursor: grab;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+}
+.fullwidth-slideshow-pager-wrap{
+    cursor: default;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 60px 0 20px 0;
+
+    z-index: 25;
+
+    //background: -webkit-gradient(linear, left top, right top, from($alphaZeroZeroblack), to($alphaZeroSixwhite));
+    //background: -webkit-linear-gradient(top, $alphaZeroZeroblack, $alphaZeroSixwhite);
+    //background: -moz-linear-gradient(top, $alphaZeroZeroblack, $alphaZeroSixwhite);
+    //background: -o-linear-gradient(top, $alphaZeroZeroblack, $alphaZeroSixwhite);
+    //background: -ms-linear-gradient(top, $alphaZeroZeroblack, $alphaZeroSixwhite);
+    //background: linear-gradient(top, $alphaZeroZeroblack, $alphaZeroSixwhite);
+    background-color: $primarywhite;
+}
+.fullwidth-slideshow-pager-wrap .owl-item{
+    opacity: .7;
+    -webkit-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.fullwidth-slideshow-pager-wrap .owl-item:hover{
+    opacity: 1;
+}
+.fullwidth-slideshow-pager-wrap .owl-item.synced{
+    opacity: 1;
+}
+.fsp-item{
+    margin: 0 2px;
+    cursor: pointer;
+}
+.fsp-item:active{
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -o-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    transform: scale(0.98);
+}
+.fsp-item img{
+    width: 100%;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -border-radius: 2px;
+
+    //-webkit-box-shadow: 0px 1px 5px $alphaSevenblack;
+    //-moz-box-shadow: 0px 1px 5px $alphaSevenblack;
+    //box-shadow: 0px 1px 5px $alphaSevenblack;
+}

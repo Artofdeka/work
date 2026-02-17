@@ -1,0 +1,33 @@
+/* ==============================
+   Counters
+   ============================== */
+
+.count-wrapper{
+    padding: 40px 20px;
+    border: 1px solid $alphaZeroNineblack;
+}
+.count-number{
+	font-size: 48px;
+	font-weight: 300;
+	line-height: 1.3;
+	text-align: center;
+}
+.count-descr{
+    color: $secondaryGrey;
+	font-size: 11px;
+	text-align:center;
+}
+.count-descr .fa{
+    font-size: 14px;
+}
+
+.count-title{
+	margin-top: -1px;
+	font-size: 13px;
+}
+.count-separator{
+	height: 30px;
+	clear: both;
+	float: none;
+	overflow: hidden;
+}

@@ -1,0 +1,163 @@
+/* ==============================
+   aod Wrapper styles
+   ============================== */
+ .aod-home-wrapper {
+    width:  100%;
+    height: 90vh;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+     margin:  0;
+     padding: 0;
+ }
+ .aod-container {
+    background-color:none;
+     max-width: 100%;
+     margin: 0 auto;
+     position: relative;
+     padding: 2em;
+     top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+
+ }
+/* ==============================
+   aod logo styles
+   ============================== */
+.aod-logo {
+    width: 15em;
+    height: auto;
+    margin: 0 auto;
+    z-index: 1030;
+    /* === Small Phone === */
+    /* When its at max-width: 320px, the logo needs to be 20em (175px);*/
+    @media only screen and (min-width: 768px) {
+        width: 20em;
+    }
+    @media only screen and (min-width: 1440px) {
+        width: 31.25em;
+    }
+}
+
+/* Worklink corner */
+.aod_index__link {
+	position: relative;
+	top: 0;
+	right: 0;
+}
+
+
+/* li second-child */
+.aod_link {
+    @include child-achor;
+    @include transition-all;
+
+    &:hover { color: $LastShadow; }
+    &:focus { color: $LastShadow; }
+}
+
+/* li second-child */
+.aod_nav_link {
+    @include child-achor;
+    @include transition-all;
+    font-size: 1.4em;
+    fill: $primarynavy;
+    z-index: 9999999999999999999999999;
+
+    &:hover { color: $NoShadow; }
+    &:focus { color: $NoShadow; }
+}
+
+.aod_nav_orange_link {
+    @include child-achor;
+    @include transition-all;
+    font-size: 1.4em;
+    fill: $alphaZeroZeroblack;
+    color: $NoShadow;
+    z-index: 9999999999999999999999999;
+
+    &:hover { color: $NoShadow; }
+    &:focus { color: $NoShadow; }
+}
+
+.aod_nav_color {
+  fill: $secondaryblack;
+}
+
+/* li second-child */
+.aod_nav_navy_link {
+  color: $primarynavy;
+  @include child-achor;
+  @include transition-all;
+  font-size: 1.4em;
+  z-index: 9999999999999999999999999;
+
+  &:hover { color: $primarynavy; }
+  &:focus { color: $primarynavy; }
+}
+
+
+.work_link__corner__svg {
+    max-width: 100%;
+    height: auto;
+    fill: #82888a;
+	color: #2c2d31;
+	position: relative;
+	top: 0;
+	border: 0;
+	right: 0;
+}
+
+//deka sketch icon
+.icon_aod_landing {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    //width: 25em;
+    //height: 25em;
+	top: 0;
+	border: 0;
+	right: 0;
+    fill: currentColor;
+}
+
+
+
+.work_link__corner:hover .vertical-inner {
+	animation: vertical-turn 2ms ease-in-out;
+}
+
+@keyframes vertical-turn {
+	0% {
+		transform: rotate(0);
+	}
+	50% {
+		transform: rotate(45deg);
+	}
+	100% {
+		transform: rotate(180deg);
+	}
+}
+
+/* ==============================
+   aod logo styles
+   ============================== */
+
+   //Deka Centered
+   .aod-flex {
+       width: 100%;
+       bottom: 0;
+       padding: 2em;
+       display: flex; /* or inline-flex */
+       justify-content: center;
+       align-content: center;
+   }
+
+   .aod_centred {
+     order: 0; /* default is 0 */
+     flex-grow: 0; /* default 0 */
+     flex-basis: auto; /* default auto */
+     align-self: center;
+   }

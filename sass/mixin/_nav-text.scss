@@ -1,0 +1,92 @@
+// nav-mixins styles
+@mixin respond-to($val, $query) {
+    @media ($val: $query) {
+        @content
+      }
+}
+
+@mixin transform-style {
+    -webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+// Includedtransform-style
+@mixin transition-all {
+    -webkit-transition: all 0.30s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.30s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.30s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.30s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.30s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+@mixin transition-top {
+    -webkit-transition: top 0.8s cubic-bezier(0, 0, 0.58, 1);
+    -moz-transition: top 0.8s cubic-bezier(0, 0, 0.58, 1);
+    -o-transition: top 0.8s cubic-bezier(0, 0, 0.58, 1);
+    -ms-transition: top 0.8s cubic-bezier(0, 0, 0.58, 1);
+    transition: top 0.8s cubic-bezier(0, 0, 0.58, 1);
+}
+@mixin translate-y {
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+@mixin transition($detail) {
+    -webkit-transition: $detail;
+    -moz-transition: $detail;
+    -o-transition: $detail;
+    -ms-transition: $detail;
+    transition: $detail;
+}
+
+// Included
+@mixin nav-hover-focus {
+    color: $secondaryblack;
+    text-decoration: none;
+    line-height: 1.2;
+    bottom: 2px;
+}
+// Included
+@mixin psuedo-before-after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    background: $secondaryblack;
+    top: 20px;
+    left: 0px;
+    @include transition(width 0.2s ease-in-out);
+}
+// Included
+@mixin psuedo-before-after-orange {
+    content: "";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    background: $brightorange;
+    top: 20px;
+    left: 0px;
+    @include transition(width 0.2s ease-in-out);
+}
+
+@mixin psuedo-active {
+    content: "";
+    width: 0%;
+    height: 0px;
+    position: absolute;
+    background: none;
+    top: 0px;
+    left: 0px;
+}
+// Included
+@mixin box-sizing($x) {
+    -moz-box-sizing: $x;
+    -webkit-box-sizing: $x;
+    box-sizing: $x;
+}
+@mixin child-achor {
+    font-weight:$secondaryblack;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    color: $LastShadow;
+}
